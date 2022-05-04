@@ -1,0 +1,106 @@
+
+
+table {
+    width: 650px; 
+    height: 180px;
+    border-collapse: collapse; 
+    } 
+
+td  {
+    padding: 3px; 
+    border: 1px solid #000; 
+    }
+    
+tr {
+    background-color: #168f8f;
+    color: #fff;
+    }
+
+tr:hover {
+    background-color: red ;
+    }
+
+#rectangle {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 150px;
+    height: 260px;
+    background: #a9a9a9;
+    outline:  1px solid #000; 
+    border-radius: 20px;
+        
+    }
+
+#square {
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    width: 120px;
+    height: 120px;
+    background: white;
+    outline:  1px solid #000; 
+    border-radius: 20px;
+    }
+
+#time {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-size: 30px;
+    font-family: Bahnschrift SemiBold;
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9 {
+    width: 30px;
+    height: 30px;
+    background: purple;
+    outline:  1px solid #000; 
+    border-radius: 20px / 10px
+    
+}
+
+#b1 {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+#b2 {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+}
+#b3 {
+    position: absolute;
+    top: 55%;
+    left: 70%;
+}
+#b4{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+#b5 {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+#b6 {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+#b7 {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+#b8 {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+}
+#b9 {
+    position: absolute;
+    top: 85%;
+    left: 70%;
+}
